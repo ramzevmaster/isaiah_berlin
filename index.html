@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dos conceptos de libertad - Isaiah Berlin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4b0082;
+            --secondary-color: #800080;
+            --accent-color: #9932cc;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.7;
+            padding-top: 76px;
+        }
+        .navbar { background-color: var(--primary-color) !important; }
+        .hero-section {
+            background: linear-gradient(rgba(128,0,128,0.8), rgba(75,0,130,0.7)),
+                        url('https://images.unsplash.com/photo-1580130718649-2c0a0e630e2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover no-repeat;
+            min-height: 85vh;
+            color: white;
+        }
+        .author-card { box-shadow: 0 5px 20px rgba(0,0,0,0.15); }
+        .card-header { background-color: var(--primary-color); color: white; }
+        .book-card { border-left: 5px solid var(--secondary-color); background: #fff; }
+        .sidebar { background-color: var(--primary-color); }
+        footer { background-color: var(--primary-color); }
+        .definition-card {
+            background: linear-gradient(135deg, #800080 0%, #9932cc 100%);
+            color: white;
+        }
+        .timeline::before { background-color: var(--secondary-color); }
+        .timeline-item::before {
+            background-color: var(--accent-color);
+            box-shadow: 0 0 0 4px var(--secondary-color);
+        }
+        .section-anchor { scroll-margin-top: 100px; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-balance-scale me-2"></i>Dos conceptos de libertad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section con Isaiah Berlin -->
+    <section class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold">Dos conceptos de libertad</h1>
+                    <h2 class="display-6 mb-4">Y otros escritos</h2>
+                    <p class="lead mb-4">
+                        «La libertad no es solo ausencia de interferencia, sino también la capacidad de autodeterminación.»
+                    </p>
+                    <div class="definition-card p-4 rounded">
+                        <h3>Isaiah Berlin (1909-1997)</h3>
+                        <p>Filósofo e historiador de las ideas británico de origen ruso. En su obra más famosa, distingue entre libertad negativa (ausencia de coacción) y positiva (autodominio), analizando sus implicaciones políticas en el contexto de la Guerra Fría.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="isaiah_berlin_1983.jpg" 
+                         alt="Isaiah Berlin" class="img-fluid rounded shadow-lg" style="max-height: 550px;">
+                    <p class="mt-3 text-light"><em>Isaiah Berlin en 1983</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container my-5">
+
+        <!-- 1. Introducción -->
+        <div class="row mb-5 section-anchor" id="introduccion">
+            <div class="col-12">
+                <div class="card author-card">
+                    <div class="card-header"><h3>1. Introducción</h3></div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-4">
+                                <img src="isaiah_berlin_joven.jpg" 
+                                     alt="Isaiah Berlin joven" class="img-fluid rounded">
+                                <p class="mt-2"><em>Isaiah Berlin en 1957, cerca de la fecha de su conferencia</em></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Berlin, nacido en Riga en 1909 y emigrado a Inglaterra en 1921 tras la Revolución Rusa, vivió las convulsiones del nazismo y el estalinismo, lo que influyó en su visión de la libertad.</p>
+                                <p>Escrita en plena Guerra Fría (1958), la obra distingue entre libertad negativa y positiva, analizando modelos liberales (EE.UU.) versus totalitarios (URSS). A pesar del contexto, sus ideas son atemporales, ya que los enemigos de la libertad pueden reaparecer bajo nuevos ropajes.</p>
+                                <p>Berlin advierte sobre el poder destructivo de las ideas filosóficas y la necesidad de delimitar los dos tipos de libertad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. El concepto de libertad negativa -->
+        <div class="row mb-5 section-anchor" id="negativa">
+            <div class="col-12">
+                <div class="card author-card">
+                    <div class="card-header"><h3>2. El concepto de libertad negativa</h3></div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-4">
+                                <img src="john_locke.jpg" 
+                                     alt="John Locke" class="img-fluid rounded">
+                                <p class="mt-2"><em>John Locke, defensor de la libertad negativa</em></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Libertad negativa es el espacio donde un individuo actúa sin interferencia deliberada de otros. Cuanto mayor el espacio de no interferencia, mayor la libertad.</p>
+                                <p>No puede ser ilimitada, ya que llevaría al caos; liberales como Locke, Mill, Constant y Tocqueville proponen límites legales para proteger una esfera mínima inviolable.</p>
+                                <p>Berlin critica que en sociedades desiguales, la libertad de unos se base en la miseria de otros, pero enfatiza que libertad no es igualdad o justicia: sacrificarla por estos no aumenta la libertad global.</p>
+                                <p>Adam Smith veía armonía en un territorio privado amplio; Hobbes prefería poder estatal fuerte. Ambas visiones respetan un mínimo inviolable para evitar despotismo.</p>
+                                <p>Conceptos como ley natural o derechos naturales definen este mínimo. La libertad negativa frena abusos de autoridad, propaganda y mediocridad colectiva.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. El concepto de libertad positiva -->
+        <div class="row mb-5 section-anchor" id="positiva">
+            <div class="col-12">
+                <div class="card author-card">
+                    <div class="card-header"><h3>3. El concepto de libertad positiva</h3></div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-4">
+                                <img src="hegel.jpg" 
+                                     alt="Georg Wilhelm Friedrich Hegel" class="img-fluid rounded">
+                                <p class="mt-2"><em>Hegel, influido en la libertad positiva</em></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Libertad positiva es el deseo de ser amo de uno mismo, decidir por sí. Contrasta con ser esclavo si otros deciden.</p>
+                                <p>Berlin distingue "yo racional" (superior, colectivo) vs. "yo irracional" (empírico, pasional). El "yo auténtico" puede ser una totalidad social (tribu, Estado), justificando coacción para "liberar" al yo racional latente.</p>
+                                <p>Esto lleva a "monstruosa suplantación": forzar individuos por el bien colectivo, interpretado por elites.</p>
+                                <p>Marx veía instituciones sociales como obstáculos al progreso; solo al reconocerlas como creaciones humanas se emancipa la sociedad.</p>
+                                <p>En sociedades racionales, leyes son aceptadas por todos; coacción es "emancipación". Berlin coincide con Bentham: leyes reprimen, no liberan.</p>
+                                <p>Educación como herramienta para racionalizar, pero lleva a paternalismo: "el sabio te conoce mejor". Abre puerta a dictadores o guardianes platónicos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. La retirada a la ciudadela interior -->
+        <div class="row mb-5 section-anchor" id="ciudadela">
+            <div class="col-12">
+                <div class="card author-card">
+                    <div class="card-header"><h3>4. La retirada a la ciudadela interior</h3></div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-4">
+                                <img src="Immanuel_Kant.jpg" 
+                                     alt="Immanuel Kant" class="img-fluid rounded">
+                                <p class="mt-2"><em>Immanuel Kant, crítico del paternalismo</em></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Ante obstáculos externos, el individuo se repliega a su "ciudadela interior", intangible a fuerzas exteriores (ascetas, estoicos, budistas).</p>
+                                <p>Kant: paternalismo es el mayor despotismo. Rechaza utilitarismo de premios/castigos para "felicidad" de esclavos.</p>
+                                <p>Berlin: mentir o usar a otros como medios es tratarlos como infrahumanos. Esta retirada surge en mundos crueles, pero es antítesis de libertad política.</p>
+                                <p>Exhorta a resistir o atacar coacciones; liberación total solo con muerte (Schopenhauer).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. La búsqueda del reconocimiento y otros aspectos -->
+        <div class="row mb-5 section-anchor" id="reconocimiento">
+            <div class="col-12">
+                <div class="card author-card">
+                    <div class="card-header"><h3>5. La búsqueda del reconocimiento, libertad y soberanía</h3></div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-4">
+                                <img src="Benjamin_Constant.jpg" 
+                                     alt="Benjamin Constant" class="img-fluid rounded">
+                                <p class="mt-2"><em>Benjamin Constant, enfatizó límites al poder</em></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Falta de libertad puede ser falta de reconocimiento: no ser ignorado o ninguneado. Legitima sometimiento voluntario a dictadores "propios" por paz y comodidad.</p>
+                                <p>Constant: problema no es quién tiene autoridad, sino cuánta; acumulación de poder oprime.</p>
+                                <p>Sociedad libre: derechos absolutos, fronteras inviolables. Pluralismo (negativa) preferible a monismo (positiva): fines humanos múltiples, en conflicto.</p>
+                                <p>Berlin cita a Schumpeter: defender convicciones relativas resueltamente distingue civilizado de bárbaro.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. Conclusión -->
+        <div class="row mb-5 section-anchor" id="conclusion">
+            <div class="col-12">
+                <div class="card author-card">
+                    <div class="card-header"><h3>6. Conclusión</h3></div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-4">
+                                <img src="caida_muro_berlin.jpg" 
+                                     alt="Caída del Muro de Berlín" class="img-fluid rounded">
+                                <p class="mt-2"><em>Caída del Muro de Berlín en 1989, simbolizando fin de totalitarismos</em></p>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Con la caída del comunismo, totalitarismos advertidos por Berlin desaparecen, pero modelo liberal se vuelve monista sin contrapeso.</p>
+                                <p>Expansión capitalista (años 90-2007) abusa de libertad negativa; desfavorecidos reclaman positiva para equilibrio.</p>
+                                <p>Modelo europeo (socialdemocracias, Estado de Bienestar) como síntesis razonable, pero riesgos: desequilibrios en regímenes no occidentales y nuevas formas de despotismo bajo apariencia democrática.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ejemplos concretos al final -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="card author-card">
+                    <div class="card-header"><h3>Ejemplos concretos para entender los dos conceptos</h3></div>
+                    <div class="card-body">
+                        <h4>Libertad negativa (ausencia de interferencia):</h4>
+                        <ul>
+                            <li><strong>Ejemplo cotidiano:</strong> Poder expresar opiniones en redes sociales sin censura gubernamental. Si no hay coacción externa, estás libre (negativamente).</li>
+                            <li><strong>Ejemplo histórico:</strong> En EE.UU., la Primera Enmienda protege la libertad de expresión de interferencias estatales, permitiendo críticas al gobierno sin represión.</li>
+                            <li><strong>Ejemplo negativo:</strong> En regímenes autoritarios como la URSS estalinista, la libertad negativa se viola al prohibir publicaciones disidentes.</li>
+                        </ul>
+                        <h4>Libertad positiva (autodominio y realización):</h4>
+                        <ul>
+                            <li><strong>Ejemplo cotidiano:</strong> Tener acceso a educación para desarrollar tu potencial racional y decidir tu vida, no ser "esclavo" de pasiones o ignorancia.</li>
+                            <li><strong>Ejemplo histórico:</strong> En la Revolución Francesa, la "voluntad general" (Rousseau) justifica coacción para "liberar" al pueblo, alineándolo con el yo racional colectivo.</li>
+                            <li><strong>Ejemplo negativo:</strong> En totalitarismos, elites imponen "libertad positiva" forzando a individuos a ajustarse al plan estatal, como en campos de reeducación.</li>
+                        </ul>
+                        <p>Estos ejemplos muestran cómo la negativa protege del abuso externo, mientras la positiva puede justificar coacción en nombre del "bien superior".</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h5>Dos conceptos de libertad – Isaiah Berlin (1958)</h5>
+                    <p>Una reflexión eterna sobre la tensión entre ausencia de coacción y autodeterminación, clave para entender libertad en sociedades modernas.</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <p>&copy; 2025 – Recursos sobre pensamiento político</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
